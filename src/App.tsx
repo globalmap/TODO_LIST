@@ -1,4 +1,4 @@
-import React, { FC } from "react"
+import { FC } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { Row, Col, ConfigProvider } from "antd"
 import TodoList from "./components/TodoList/TodoList"

@@ -9,7 +9,7 @@ interface TodoListProps {
   onToggle: (id: number) => void
 }
 
-const TodoList: React.FC<TodoListProps> = ({ todos, onToggle }) => 
+const TodoList: React.FC<TodoListProps> = ({ todos, onToggle }) =>
   <List
     grid={{
       gutter: 16,
@@ -21,7 +21,7 @@ const TodoList: React.FC<TodoListProps> = ({ todos, onToggle }) =>
       xxl: 3,
     }}
     dataSource={todos}
-    renderItem={(item, index) => 
+    renderItem={(item, index) =>
       <Task index={index} todo={item} onToggle={() => onToggle(item.id)} />
     }
   />

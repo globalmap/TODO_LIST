@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgba(219, 193, 193, 0.19);
+}
+
+
+@media (min-width: 1200px) {
+  body {
+    padding: 0 2rem;
+  }
+}
